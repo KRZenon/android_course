@@ -23,9 +23,10 @@ class MainActivity : AppCompatActivity() {
         image = findViewById(R.id.myImage)
 
         ok.setOnClickListener {
-           /* var userName:String = name.text.toString()
-            result.setText(userName)*/
+           /* var userName:String = name.text.toString()*/
+            result.setText(name.text.toString())
             image.setImageResource(R.drawable.mo_bride)
+
         }
     }
 }

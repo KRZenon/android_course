@@ -5,6 +5,9 @@ plugins {
 
 android {
     namespace = "com.example.binding"
+    buildFeatures{
+        viewBinding = true
+    }
     compileSdk = 34
 
     defaultConfig {
