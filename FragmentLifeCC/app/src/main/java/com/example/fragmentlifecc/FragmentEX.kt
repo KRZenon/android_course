@@ -23,7 +23,7 @@ class FragmentEX: Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         Log.i("fragment","onCreateView")
-        return inflater.inflate(R.layout.fragmentnew,container,false)
+        return inflater.inflate(R.layout.te,container,false)
     }
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">FragmentLifeCC</string>
+    <string name="tes">abc\nxyz\n123</string>
 </resources>
